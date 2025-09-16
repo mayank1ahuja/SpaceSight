@@ -37,6 +37,24 @@ The project follows an end-to-end analytics pipeline, moving systematically from
 4. **Exploratory Analysis & Visualizations**: Exploratory analysis was conducted in Jupyter ```exploartory analysis.ipynb```, producing plots and summary tables. Visuals covered time-series growth by shell, operator distributions, satellite age profiles, mission-type breakdowns, and altitude–inclination density heatmaps.
 5. **Dashboard Development**: The final deliverable was an interactive Tableau workbook called ```Satellite Analytics & Orbit Insights.twbx``` that integrated the cleaned dataset and KPIs. The dashboard allowed stakeholders to explore satellite trends by orbital shell, operator, country, and mission type through intuitive charts and key performance indicators.
 
+## Visual Highlights
+
+### Dashboard 1 – Global Satellite Industry Landscape
+![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/3da3f4fa795d489bfde6b345fc3996224613f827/assets/tableau/global%20satellite%20industry%20landscape.png)  
+
+### Dashboard 2 – Risks & Global Distribution
+![Risk & Geography](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/tableau/satellite%20risks%20and%20global%20distribution.png)  
+
+### Selected Plotly Charts
+![Launches per Year](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/satellite%20launches%20per%20year%20by%20orbit%20shell.png)  
+
+
+![Average Age of Satellites by Operator](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/average%20satellite%20age%20by%20operator.png)  
+
+
+![Dominant Orbit Shells by Country](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/dominant%20orbit%20shell%20by%20country.png)  
+
+
 ## Key Findings
 1. **Rapid growth in specific orbits**:  Certain orbital shells (specific altitude bands) were identified as accumulating satellites at the fastest rates. These shells are often populated by recent deployments of large commercial communications constellations.
 2. **Leading operators and countries**: A small number of major operators and their home countries were found to dominate new launches in the most congested shells. This pattern highlights which organizations and jurisdictions are most active in those orbital bands.

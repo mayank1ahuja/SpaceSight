@@ -10,7 +10,7 @@ Satellite operations are no longer driven by curiosity, rather serve as infrastr
 
 Thus, this end-to-end analytics product was developed to answer these questions. Using the UCS Satellite Database, the project computes domain-relevant KPIs — growth rates, operator/country concentration, age, distribution of purposes within a group, and a practical density proxy and packages those insights in reproducible notebooks, canonical SQL, and an interactive Tableau workbook. The goal is to produce actionable intelligence for mission planners, regulators, insurers, and engineering leads.
 
-### Dashboard Preview
+## Dashboard Preview
 ![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/3da3f4fa795d489bfde6b345fc3996224613f827/assets/tableau/global%20satellite%20industry%20landscape.png)  
 *Interactive Tableau dashboard highlighting orbital shell distribution, growth trends, operator concentration, and mission purposes.*  
 

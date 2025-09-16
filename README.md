@@ -11,7 +11,7 @@ Satellite operations are no longer driven by curiosity, rather serve as infrastr
 Thus, this end-to-end analytics product was developed to answer these questions. Using the UCS Satellite Database, the project computes domain-relevant KPIs — growth rates, operator/country concentration, age, distribution of purposes within a group, and a practical density proxy and packages those insights in reproducible notebooks, canonical SQL, and an interactive Tableau workbook. The goal is to produce actionable intelligence for mission planners, regulators, insurers, and engineering leads.
 
 ## Dashboard Preview
-![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/3da3f4fa795d489bfde6b345fc3996224613f827/assets/tableau/global%20satellite%20industry%20landscape.png)  
+![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/a461ee4701a56b89760f903d9c8b8ac51271860b/assets/tableau/dashboard%201.png)  
 *Interactive Tableau dashboard highlighting orbital shell distribution, growth trends, operator concentration, and mission purposes.*  
 
 ## Background & Motivation
@@ -40,10 +40,10 @@ The project follows an end-to-end analytics pipeline, moving systematically from
 ## Visual Highlights
 
 ### Dashboard 1 – Global Satellite Industry Landscape
-![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/3da3f4fa795d489bfde6b345fc3996224613f827/assets/tableau/global%20satellite%20industry%20landscape.png)  
+![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/a461ee4701a56b89760f903d9c8b8ac51271860b/assets/tableau/dashboard%201.png)  
 
 ### Dashboard 2 – Risks & Global Distribution
-![Risk & Geography](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/tableau/satellite%20risks%20and%20global%20distribution.png)  
+![Risk & Geography](https://github.com/mayank1ahuja/SpaceSight/blob/a461ee4701a56b89760f903d9c8b8ac51271860b/assets/tableau/dashboard%202.png)  
 
 ### Selected Plotly Charts
 ![Launches per Year](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/satellite%20launches%20per%20year%20by%20orbit%20shell.png)  

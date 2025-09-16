@@ -1,8 +1,22 @@
 ![](https://github.com/mayank1ahuja/SpaceSight/blob/0699bc36a5a56e3a9d8bc85222a7d98880b518c2/images/header.png)
 <h1 align = "center"> SpaceSight </h1>
 
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](#)
+[![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange)](#)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
+
+
 ## TL;DR 
-This end-to-end project was developed to transform the UCS Satellite Database into decision-grade orbital KPIs and visual narratives across LEO, MEO and GEO. Deliverables include reproducible notebooks, canonical SQL KPI schemas, two interactive Tableau dashboards, and export-ready visuals for stakeholder briefings.
+This end-to-end project was developed to transform the UCS Satellite Database into decision-grade orbital KPIs and visual narratives across LEO, MEO and GEO. Deliverables include reproducible notebooks, canonical SQL KPI schemas, two interactive Tableau dashboards, and export-ready visuals for stakeholder briefings
+
+## Contents
+- [Project Overview](#project-overview)
+- [Dashboard Preview](#dashboard-preview)
+- [Methodology](#methodology)
+- [Key Findings](#key-findings)
+- [How to reproduce](#how-to-reproduce)
+- [Contact](#contact)
+
 
 ## Project Overview 
 
@@ -34,7 +48,7 @@ The project follows an end-to-end analytics pipeline, moving systematically from
 1. **Data Ingestion**: The UCS Satellite Database was imported into the working environment as the primary data source.
 2. **Data Cleaning & Feature Engineering**: Using Python (pandas in ```data cleaning.ipynb```), the dataset was cleaned and enhanced with derived features such as mean altitude, orbital shell classification (LEO/MEO/GEO), satellite age (in years), and altitude bands. The cleaned dataset was then exported for reproducibility.
 3. **KPI Computation**: Canonical metrics were computed using SQL scripts in ```kpi_queries.sql```. These included satellite counts by shell, annual growth rates, operator and country market shares, mission-type mixes, average ages, and concentration measures.
-4. **Exploratory Analysis & Visualizations**: Exploratory analysis was conducted in Jupyter ```exploartory analysis.ipynb```, producing plots and summary tables. Visuals covered time-series growth by shell, operator distributions, satellite age profiles, mission-type breakdowns, and altitude–inclination density heatmaps.
+4. **Exploratory Analysis & Visualizations**: Exploratory analysis was conducted in Jupyter ```exploratory analysis.ipynb```, producing plots and summary tables. Visuals covered time-series growth by shell, operator distributions, satellite age profiles, mission-type breakdowns, and altitude–inclination density heatmaps.
 5. **Dashboard Development**: The final deliverable was an interactive Tableau workbook called ```Satellite Analytics & Orbit Insights.twbx``` that integrated the cleaned dataset and KPIs. The dashboard allowed stakeholders to explore satellite trends by orbital shell, operator, country, and mission type through intuitive charts and key performance indicators.
 
 ## Visual Highlights

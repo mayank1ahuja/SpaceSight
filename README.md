@@ -48,3 +48,13 @@ The GitHub repository includes:
 * Jupyter notebooks detailing the data processing and analysis steps.
 * A SQL script containing the key queries for metric calculations.
 * The Tableau workbook file for the interactive dashboard.
+
+## Impact and Skills Demonstrated
+This project showcases the ability to turn raw space-traffic data into strategic intelligence. It combines domain framing with solid data techniques:
+
+* **Domain Knowledge**: Framing satellite congestion as an operational risk and capacity planning problem.
+* **Technical Skills**: Data ingestion, transformation, and analysis using Python and SQL; dashboard and KPI design using Tableau.
+* **Analytical Techniques**: Time-series trend analysis, geospatial grouping (orbital shells), and multi-dimensional aggregation.
+* **Business Outcome**: Clear recommendations for monitoring and resource allocation, showing how data insights support decision-making.
+
+The approach is scalable and can be applied to other datasets (e.g., Two-Line Element sets or ground-station logs) for broader space traffic analytics projects.

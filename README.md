@@ -1,6 +1,9 @@
 ![](https://github.com/mayank1ahuja/SpaceSight/blob/0699bc36a5a56e3a9d8bc85222a7d98880b518c2/images/header.png)
 <h1 align = "center"> SpaceSight </h1>
 
+## TL;DR 
+This end-to-end project was developed to transform the UCS Satellite Database into decision-grade orbital KPIs and visual narratives across LEO, MEO and GEO. Deliverables include reproducible notebooks, canonical SQL KPI schemas, two interactive Tableau dashboards, and export-ready visuals for stakeholder briefings.
+
 ## **Overview of the Project**
 
 Satellite operations are no longer driven by curiosity, rather serve as infrastructure. Space agencies, satellite operators, and ground-station networks require clear answers to operational questions: Which orbital shells are becoming most congested, and who is driving that growth? What is the age and mission-type composition of satellites in those crowded shells?

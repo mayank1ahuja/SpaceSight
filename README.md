@@ -4,11 +4,15 @@
 ## TL;DR 
 This end-to-end project was developed to transform the UCS Satellite Database into decision-grade orbital KPIs and visual narratives across LEO, MEO and GEO. Deliverables include reproducible notebooks, canonical SQL KPI schemas, two interactive Tableau dashboards, and export-ready visuals for stakeholder briefings.
 
-## **Overview of the Project**
+## Project Overview 
 
 Satellite operations are no longer driven by curiosity, rather serve as infrastructure. Space agencies, satellite operators, and ground-station networks require clear answers to operational questions: Which orbital shells are becoming most congested, and who is driving that growth? What is the age and mission-type composition of satellites in those crowded shells?
 
 Thus, this end-to-end analytics product was developed to answer these questions. Using the UCS Satellite Database, the project computes domain-relevant KPIs — growth rates, operator/country concentration, age, distribution of purposes within a group, and a practical density proxy and packages those insights in reproducible notebooks, canonical SQL, and an interactive Tableau workbook. The goal is to produce actionable intelligence for mission planners, regulators, insurers, and engineering leads.
+
+### Dashboard Preview
+![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/3da3f4fa795d489bfde6b345fc3996224613f827/assets/tableau/global%20satellite%20industry%20landscape.png)  
+*Interactive Tableau dashboard highlighting orbital shell distribution, growth trends, operator concentration, and mission purposes.*  
 
 ## Background & Motivation
 Managing satellite traffic and collision risk across orbital shells is an urgent operational problem. The number of satellites launched each year has increased rapidly, leading to congestion in certain orbital shells. This can strain ground-station resources and raise safety concerns. To address this challenge, data was used from the UCS Satellite Database, which contains detailed information on satellite launches, orbital parameters, operators, and mission purposes.

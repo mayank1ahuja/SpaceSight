@@ -1,5 +1,6 @@
 ![](https://github.com/mayank1ahuja/SpaceSight/blob/0699bc36a5a56e3a9d8bc85222a7d98880b518c2/images/header.png)
-<h1 align = "center"> SpaceSight </h1>
+<h1 align = "center"> SpaceSight
+A Satellite Analytics & Orbit Insights Project</h1>
 
 ## TL;DR 
 This end-to-end project was developed to transform the UCS Satellite Database into decision-grade orbital KPIs and visual narratives across LEO, MEO and GEO. Deliverables include reproducible notebooks, canonical SQL KPI schemas, two interactive Tableau dashboards, and export-ready visuals for stakeholder briefings
@@ -7,7 +8,7 @@ This end-to-end project was developed to transform the UCS Satellite Database in
 ## Contents
 - [Project Overview](#project-overview)
 - [Dashboard Preview](#dashboard-preview)
-- [Background & Motivation](#background-&-motivation)
+- [Background and Motivation](#background-and-motivation)
 - [Data Source](#data-source)
 - [Objectives](#objectives)
 - [Methodology](#methodology)
@@ -28,7 +29,7 @@ Thus, this end-to-end analytics product was developed to answer these questions.
 ![Industry Landscape](https://github.com/mayank1ahuja/SpaceSight/blob/a461ee4701a56b89760f903d9c8b8ac51271860b/assets/tableau/dashboard%201.png)  
 *Interactive Tableau dashboard highlighting orbital shell distribution, growth trends, operator concentration, and mission purposes.*  
 
-## Background & Motivation
+## Background and Motivation
 Managing satellite traffic and collision risk across orbital shells is an urgent operational problem. The number of satellites launched each year has increased rapidly, leading to congestion in certain orbital shells. This can strain ground-station resources and raise safety concerns. To address this challenge, data was used from the UCS Satellite Database, which contains detailed information on satellite launches, orbital parameters, operators, and mission purposes.
 
 ## Data Source
@@ -76,7 +77,7 @@ The project follows an end-to-end analytics pipeline, moving systematically from
 3. **Satellite age and purpose distribution**: Satellites in the busiest shells were observed to be relatively new, with many launched in the last few years. The mission-type breakdown within these shells shows a predominance of commercial communications and Earth-observation payloads.
 4. **Actionable recommendations**: It is recommended that monitoring and collision-mitigation efforts be prioritized for the identified high-growth shells. Ground-station capacity planning should be aligned with these altitude bands. Additionally, satellites operating in these congested zones should be considered for insurance or maintenance review due to their elevated operational risk profile.
 
-## Dashboard and Deliverables
+## Dashboards and Deliverables
 The final deliverables are two interactive Tableau dashboards that stakeholders can use to explore the insights. 
 
 Key features include:

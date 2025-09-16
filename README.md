@@ -1,21 +1,21 @@
 ![](https://github.com/mayank1ahuja/SpaceSight/blob/0699bc36a5a56e3a9d8bc85222a7d98880b518c2/images/header.png)
 <h1 align = "center"> SpaceSight </h1>
 
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](#)
-[![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange)](#)
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
-
-
 ## TL;DR 
 This end-to-end project was developed to transform the UCS Satellite Database into decision-grade orbital KPIs and visual narratives across LEO, MEO and GEO. Deliverables include reproducible notebooks, canonical SQL KPI schemas, two interactive Tableau dashboards, and export-ready visuals for stakeholder briefings
 
 ## Contents
 - [Project Overview](#project-overview)
 - [Dashboard Preview](#dashboard-preview)
+- [Background & Motivation](#background-&-motivation)
+- [Data Source](#data-source)
+- [Objectives](#objectives)
 - [Methodology](#methodology)
+- [Visual Highlights](#visual-highlights)
 - [Key Findings](#key-findings)
-- [How to reproduce](#how-to-reproduce)
-- [Contact](#contact)
+- [Dashboard and Deliverables](#dashboard-and-deliverables)
+- [Impact and Skills Demonstrated](#impact-and-skills-demonstrated)
+- [Author](#author)
 
 
 ## Project Overview 
@@ -60,12 +60,13 @@ The project follows an end-to-end analytics pipeline, moving systematically from
 ![Risk & Geography](https://github.com/mayank1ahuja/SpaceSight/blob/a461ee4701a56b89760f903d9c8b8ac51271860b/assets/tableau/dashboard%202.png)  
 
 ### Selected Plotly Charts
+### Plot 1 - Launches per Year
 ![Launches per Year](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/satellite%20launches%20per%20year%20by%20orbit%20shell.png)  
 
-
+### Plot 2 - Average Age of Satellites by Operator
 ![Average Age of Satellites by Operator](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/average%20satellite%20age%20by%20operator.png)  
 
-
+### Plot 3 - Dominant Orbit Shells by Country
 ![Dominant Orbit Shells by Country](https://github.com/mayank1ahuja/SpaceSight/blob/2fa8730fed89a4740c881afff3350a8942e746db/assets/plotly/dominant%20orbit%20shell%20by%20country.png)  
 
 
@@ -97,3 +98,11 @@ This project showcases the ability to turn raw space-traffic data into strategic
 * **Business Outcome**: Clear recommendations for monitoring and resource allocation, showing how data insights support decision-making.
 
 The approach is scalable and can be applied to other datasets (e.g., Two-Line Element sets or ground-station logs) for broader space traffic analytics projects.
+
+## Author
+### **Mayank Ahuja**  
+- Email: ahuja.1mayank@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/mayank1ahuja/  
+- GitHub: https://github.com/mayank1ahuja
+- X: https://x.com/maxsiie
+

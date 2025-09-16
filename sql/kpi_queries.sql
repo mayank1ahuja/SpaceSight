@@ -1,5 +1,6 @@
 
 -- kpi_queries.sql
+-- Step 8: Building KPIs
 
 CREATE TABLE satellites(
 			sat_name TEXT,

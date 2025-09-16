@@ -21,3 +21,11 @@ Primary objectives:
 2. **Determine Growth Drivers:** Identify top operators and countries contributing to growth in each shell.
 3. **Analyze Purpose Distribution:** Quantify age distribution and purpose distribution in crowded shells to assess reliability and risk.
 4. **Provide Actionable Recommendations:** prioritize monitoring, capacity planning, insurance flags, and policy triggers.
+
+## Methodology
+The project follows an end-to-end analytics pipeline, moving systematically from raw satellite records to decision-oriented outputs:
+1. **Data Ingestion**: The UCS Satellite Database was imported into the working environment as the primary data source.
+2. **Data Cleaning & Feature Engineering**: Using Python (pandas in data cleaning.ipynb), the dataset was cleaned and enhanced with derived features such as mean altitude, orbital shell classification (LEO/MEO/GEO), satellite age (in years), and altitude bands. The cleaned dataset was then exported for reproducibility.
+3. **KPI Computation**: Canonical metrics were computed using SQL scripts (kpi_queries.sql). These included satellite counts by shell, annual growth rates, operator and country market shares, mission-type mixes, average ages, and concentration measures.
+4. **Exploratory Analysis & Visualizations**: Exploratory analysis was conducted in Jupyter (eda.ipynb), producing plots and summary tables. Visuals covered time-series growth by shell, operator distributions, satellite age profiles, mission-type breakdowns, and altitude–inclination density heatmaps.
+5. **Dashboard Development**: The final deliverable was an interactive Tableau workbook (Book1.twb) that integrated the cleaned dataset and KPIs. The dashboard allowed stakeholders to explore satellite trends by orbital shell, operator, country, and mission type through intuitive charts and key performance indicators.

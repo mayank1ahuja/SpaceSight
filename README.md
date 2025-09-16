@@ -35,3 +35,16 @@ The project follows an end-to-end analytics pipeline, moving systematically from
 2. **Leading operators and countries**: A small number of major operators and their home countries were found to dominate new launches in the most congested shells. This pattern highlights which organizations and jurisdictions are most active in those orbital bands.
 3. **Satellite age and purpose distribution**: Satellites in the busiest shells were observed to be relatively new, with many launched in the last few years. The mission-type breakdown within these shells shows a predominance of commercial communications and Earth-observation payloads.
 4. **Actionable recommendations**: It is recommended that monitoring and collision-mitigation efforts be prioritized for the identified high-growth shells. Ground-station capacity planning should be aligned with these altitude bands. Additionally, satellites operating in these congested zones should be considered for insurance or maintenance review due to their elevated operational risk profile.
+
+## Dashboard and Deliverables
+The final deliverables are two interactive Tableau dashboards that stakeholders can use to explore the insights. 
+
+Key features include:
+* Time-series charts showing satellite count growth by orbital shell.
+* Bar charts of top operators and countries in each shell.
+* Distribution charts of satellite ages and mission types within each shell.
+
+The GitHub repository includes:
+* Jupyter notebooks detailing the data processing and analysis steps.
+* A SQL script containing the key queries for metric calculations.
+* The Tableau workbook file for the interactive dashboard.
